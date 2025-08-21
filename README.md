@@ -3,14 +3,12 @@
 This is my **personal portfolio website** showcasing my skills, projects, education, and achievements.  
 It is built using **HTML, CSS, and JavaScript** and deployed on **Vercel**.  
 
+---
+
 🔗 **Live Demo**: [Checkout my Portfolio](https://my-portfolio-one-blush-65.vercel.app/)
 
 ---
 
-## 📸 Preview
-![Portfolio Screenshot](tiger.webp) <!-- You can replace this with a screenshot of your deployed site -->
-
----
 
 ## 🚀 Features
 - 🏠 **Home Page** – Short intro and resume link.  
