@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+
+    <!-- Replace YOUR_FORMSPREE_ENDPOINT with your actual Formspree endpoint -->
+    <form action="https://formspree.io/f/movllgbg" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="number name ="Your Phone no." placeholder="Your Phone no." required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="subject" placeholder="Subject" required />
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+  <p>&copy; 2025 Rajnish Kumar. All rights reserved.</p>
+  <p>
+    <a href="https://github.com/rajnish-012" target="_blank">GitHub</a> |
+    <a href="mailto:companyk47@gmail.com">Email</a>
+  </p>
+</footer>
+
+</body>
+</html>
